@@ -12,7 +12,7 @@ FanImage_linear = 'FanImage_linear.png'
 
 def get_b_mode():
 
-    data = scipy.io.loadmat('homwork_3/rf2017.mat')
+    data = scipy.io.loadmat('rf2017.mat')
 
     img = data['rf_signal']
     img = np.transpose(img)
